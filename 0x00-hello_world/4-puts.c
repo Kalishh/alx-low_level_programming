@@ -3,7 +3,7 @@
 /**
  * main - entrypint
  *
- * return:(0) always
+ * Return: 0
  */
 int main(void)
 {
