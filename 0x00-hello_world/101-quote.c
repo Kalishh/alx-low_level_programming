@@ -2,9 +2,9 @@
 #include <unistd.h>
 
 /**
- * main -Entry pint
+ * main - Entry point
  *
- * Return 0 Always (Success)
+ * Return: Always 0 (Success)
  *
  */
 
