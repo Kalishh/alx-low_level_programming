@@ -10,37 +10,25 @@ int main(void)
 
 {
 
-int nums;
+	int digit1, digit2;
+	for (digit1 = 0; digit1 < 10; digit1++)
 
-int nums1;
+	{
+	for (digit2 = 0; digit2 < 10; digit2++)
+	{
+	putchar((digit1 % 10) + '0');
+	putchar((digit2 % 10) + '0');
 
+	if (digit1 == 9 && digit2 == 9)
+		continue;
+																	
+		putchar(',');
+		putchar(' ');
 
-for (nums = '0'; nums <= '9'; nums++)
-
-{
-
-for (nums1 = '0'; nums1 <= '9'; nums1++)
-
-{
-
-putchar(nums);
-
-putchar(nums1);
-
-if (nums == '9' && nums1 == '9')
-
-continue;
-
-putchar(',');
-
-putchar(' ');
-
-}
-
-}
-
-putchar('\n');
-
-return (0);
+																									}
+	}
+	putchar('\n');
+	
+	return (0);
 
 }
