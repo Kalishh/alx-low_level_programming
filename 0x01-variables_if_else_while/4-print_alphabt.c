@@ -11,27 +11,23 @@
 int main(void)
 
 {
+	char abc;
 
-char abc;
+	for (abc = 'a'; abc <= 'z'; abc++)
 
-for (abc = 'a'; abc <= 'z'; abc++)
+	{	
 
-{
+	if (abc == 'q' || abc == 'e')
 
-if (abc == 'q' || abc == 'e')
+	{	
+	continue;
+	}
 
-{
+	putchar(abc);
+	}
 
-continue;
+	putchar('\n');
 
-}
-
-putchar(abc);
-
-}
-
-putchar('\n');
-
-return (0);
+	return (0);
 
 }
