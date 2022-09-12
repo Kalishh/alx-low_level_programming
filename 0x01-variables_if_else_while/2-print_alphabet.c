@@ -10,12 +10,13 @@ int main(void)
 
 {
 
-char letter;
+	char smallLetters;
 	
-for (letter = 'a'; letter <= 'z'; letter++)
-putchar(letter);
+	for (smallLetters = 'a'; smallLetters <= 'z'; smallLetters++)
+	putchar(smallLetters);
 
-putchar('\n');
-return (0);
+	putchar('\n');
+	
+	return (0);
 
 }
