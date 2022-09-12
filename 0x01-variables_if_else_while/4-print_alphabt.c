@@ -10,18 +10,17 @@
 int main(void)
 
 {
-	char abc;
+char abc;
+for (abc = 'a'; abc <= 'z'; abc++)
+{
+if (abc == 'q' || abc == 'e')
+{
+continue;
+}
+putchar(abc);
+}
+putchar('\n');
 
-	for (abc = 'a'; abc <= 'z'; abc++)
-	{
-	if (abc == 'q' || abc == 'e')
-	{
-	continue;
-	}
-	putchar(abc);
-	}
-	putchar('\n');
-
-	return (0);
+return (0);
 
 }
