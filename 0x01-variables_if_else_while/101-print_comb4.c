@@ -32,9 +32,9 @@ int main(void)
 	if (nums == '7' && nums1 == '8' && nums2 == '9')
 		break;
 
-		putchar(',');
+	putchar(',');
 
-		putchar(' ');
+	putchar(' ');
 	}
 	}
 
