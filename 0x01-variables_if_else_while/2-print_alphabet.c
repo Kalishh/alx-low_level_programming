@@ -12,12 +12,16 @@ int main(void)
 {
 
 	char smallLetters;
-	
+
+
 	for (smallLetters = 'a'; smallLetters <= 'z'; smallLetters++)
+
 	putchar(smallLetters);
 
 	putchar('\n');
-	
+
 	return (0);
 
+
 }
+
