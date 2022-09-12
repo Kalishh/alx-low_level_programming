@@ -6,35 +6,26 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
+ *
  */
 
 int main(void)
 
 {
 
-	int digit1, digit2;
+	int num;
 
 
-
-	for (digit1 = 0; digit1 < 10; digit1++)
+	for (num = 0; num < 100; num++)
 
 	{
+		putchar((num / 10) + '0');
 
-		for (digit2 = 0; digit2 < 10; digit2++)
+		putchar((num % 10) + '0');
 
+
+			if (num != 99)
 		{
-
-			putchar((digit1 % 10) + '0');
-
-			putchar((digit2 % 10) + '0');
-
-
-
-			if (digit1 == 9 && digit2 == 9)
-
-				continue;
-
-			
 
 			putchar(',');
 
@@ -47,7 +38,6 @@ int main(void)
 
 
 	putchar('\n');
-
 
 
 	return (0);
