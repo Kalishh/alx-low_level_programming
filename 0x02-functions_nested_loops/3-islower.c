@@ -2,7 +2,7 @@
 
 /**
  * _islower - int c
- *  @c: variable to determine if input is lowercase 
+ * @c: variable to determine if input is lowercase
  * Return: Always 0.
  */
 
@@ -10,7 +10,7 @@ int _islower(int c)
 {
 if (c >= 'a' && c <= 'z')
 return (1);
-else     
+else
 return (0);
 }
 
