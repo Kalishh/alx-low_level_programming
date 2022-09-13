@@ -6,9 +6,9 @@
  * Return: 0 Always (Success)
  */
 
-int main ()
+int _putchar ()
 {
-	write('_putchar\n');
+	printf("_putchar\n");
 	return (0);
 
 }
