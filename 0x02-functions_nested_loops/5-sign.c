@@ -2,7 +2,7 @@
 
 /**
  * print_sign - is the dunxtion used
- * @n is the parameter
+ * @n: is the variable
  * Return: 0 
  */
 
