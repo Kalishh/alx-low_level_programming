@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isalpha is the function used 
- * @c: The character to print
+ * _isalpha - is the function used
+ *  @c: The character to print
  * Return: 0 success
  */
 
