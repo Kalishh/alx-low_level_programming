@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs(int) - is the function
+ * _abs - is the function
  * @c: is the variable
  * Return: 0
  */
