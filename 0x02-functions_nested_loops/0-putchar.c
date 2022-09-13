@@ -4,11 +4,13 @@
 /**
  * main - Entry point
  *
- * Return: 0 Always (Success)
+ * Return; 0 Always (Success)
  */
 
-int _putchar(char a)
-
+int _putchar (char a)
 {
-	return (write(1, &a, 1));
+	write(1, "_putchar \n", 1);
+	return (0);
+
+
 }
