@@ -7,7 +7,8 @@
  * Return; 0 Always (Success)
  */
 
-int _putchar (char a)
+int main ()
+
 {
 	write(1, "_putchar \n", 1);
 	return (0);
