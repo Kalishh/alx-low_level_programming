@@ -14,6 +14,8 @@ int _putchar(char a);
 
 int _isupper(int a);
 
+int _islower(int c);
+
 int _isdigit(int a);
 
 int mul(int a, int b);
