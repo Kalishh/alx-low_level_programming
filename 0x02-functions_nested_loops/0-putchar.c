@@ -1,17 +1,19 @@
 #include <stdio.h>
+
 #include <unistd.h>
 
+#include "main.h"
+
+
 /**
- * main - Entry point
  *
+ * main - Entry point
  * Return; 0 Always (Success)
  */
 
-int main ()
+int main()
 
 {
 	write(1, "_putchar \n", 1);
 	return (0);
-
-
 }
