@@ -7,41 +7,33 @@
 /*
  *
  *  Header file containing prototypes for all functions
- *  used in the 0x03-more_functions_nested_loops directory.
+ *  used in the 0x02 tasks
  */
 
-int _putchar(char a);
-
-int _isupper(int a);
-
-int _islower(int c);
-
-int _isalpha(int c);
-
-int _isdigit(int a);
-
-int mul(int a, int b);
-
-void print_numbers(void);
+int _putchar(char c);
 
 void print_alphabet(void);
 
 void print_alphabet_x10(void);
 
-void print_most_numbers(void);
+int _islower(int c);
 
-void more_numbers(void);
+int _isalpha(int c);
 
-void print_line(int a);
+int print_sign(int n);
 
-void print_diagonal(int a);
+int _abs(int);
 
-void print_square(int size);
+int print_last_digit(int);
 
-void print_triangle(int size);
+void jack_bauer(void);
 
-void print_number(int a);
+void times_table(void);
 
+int add(int, int);
 
+void print_to_98(int n);
+
+void print_times_table(int n);
 
 #endif
