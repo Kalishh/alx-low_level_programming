@@ -1,21 +1,19 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * void print_numbers(void) - is the function
- * @a: variable
+ * print_numbers - print all numbers 0 through 9 and then new line
  */
-
 
 void print_numbers(void)
 
 {
 
-	int a;
+int i;
 
-	for (a = 0; a <= 9; a++)	
+for (i = '0'; i <= '9'; i++)
 
-		_putchar(a);
+_putchar(i);
 
-		_putchar('\n');
+_putchar('\n');
 
 }
