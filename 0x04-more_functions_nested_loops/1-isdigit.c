@@ -6,13 +6,10 @@
  * @c: is the variable used
  * Return: 0 and 1
  */
-
 int _isdigit(int c)
 {
-	for(c = 0; c <= 9; c++)
-{
-	printf ("%d\n", c);
-	return (1);
-}
+if (c >= '0' && c <= '9')
+return (1);
+else
 return (0);
 }
