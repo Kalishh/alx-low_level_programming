@@ -10,6 +10,8 @@
  *  used in the 0x04 tasks
  */
 
+int _putchar(char c);
+
 int _isupper(int c);
 
 int _isdigit(int c);
