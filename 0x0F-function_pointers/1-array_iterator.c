@@ -1,20 +1,20 @@
 #include "function_pointers.h"
 
 /**
- * int_index - function that searches for an integer
+ * array_iterator - function
  * @array: array of integers
  * @size: size of array
  * @cmp: pointer to the function to be used to compare values
  * Return: return index where match is found or -1 if fails
  */
 
-int int_index(int *array, int size, int (*cmp)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int i;
-
-	if (array && cmp && size > 0)
-		for (i = 0; i < size; i++)
-			if (cmp(array[i]))
-				return (i);
-	return (-1);
+	if (array == NULL || action == NULL)
+		return;
+	while (size-- > 0)
+	{
+		action(*array);
+		array++;
+	}
 }
